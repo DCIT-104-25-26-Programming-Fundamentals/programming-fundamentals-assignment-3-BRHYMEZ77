@@ -100,7 +100,7 @@ function viewTasks() {
 
   console.log("Your Tasks:");
   for (let i = 0; i < tasks.length; i++) {
-    console.log((i + 1) + ". " + tasks[i]);
+    console.log(`${i + 1}. ${tasks[i]}`);
   }
 }
 
